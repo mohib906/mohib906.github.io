@@ -142,8 +142,11 @@ body {
 
 p {
   font-family: "Brush Script MT", cursive;
-  margin: 40px;
+  margin: 30px;
   color: #333;
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 10px;
 }
 
 .name {
